@@ -25,7 +25,7 @@ make
 ./show_glibc_version_current
 ```
 
-The output will look like:
+The output may be as follows:
 
 ```shell
 gnu_get_libc_version() = 2.23
