@@ -14,8 +14,8 @@ main() {
         -L$PWD/$VER/lib \
         -I$PWD/$VER/include \
         -Wl,--rpath=$PWD/$VER/lib \
-        -Wl,--dynamic-linker=$PWD/$VER/lib/ld-linux-x86-64.so.2 $FILE -o $OUT
-    echo "REMAIN" $@
+        -Wl,--dynamic-linker=$PWD/$VER/lib/ld-linux-x86-64.so.2 $FILE -o $OUT \
+        $@
 }
 
 main $@
