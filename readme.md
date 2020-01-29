@@ -4,13 +4,15 @@ compile with older glibc
 
 ## Usage
 
-- compile with glibc-2.23
+- `./compile_older_glibc.sh <version> <file>.c <out>`
+
+- compile with glibc-2.23 (-> Ubuntu 16.04)
 
   ```shell
   ./compile_older_glibc.sh 2.23 show_glibc_version.c show_glibc_version
   ```
 
-- compile with glibc-2.27
+- compile with glibc-2.27 (-> Ubuntu 18.04)
 
   ```shell
   ./compile_older_glibc.sh 2.27 show_glibc_version.c show_glibc_version
