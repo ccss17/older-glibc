@@ -1,0 +1,4 @@
+lib from:
+    ubuntu 18.04 x86-64
+include from:
+    https://github.com/wheybags/glibc_version_header/blob/master/version_headers/x64/force_link_glibc_2.27.h
