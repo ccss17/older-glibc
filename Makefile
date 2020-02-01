@@ -2,7 +2,9 @@ CC = gcc
 VER_2.23 = 2.23
 VER_2.27 = 2.27
 BASE = /tmp
-all: $(BASE)/2.23 $(BASE)/2.27 show_glibc_version_current show_glibc_version_$(VER_2.23) show_glibc_version_$(VER_2.27)
+all: $(BASE)/2.23 $(BASE)/2.27 
+
+test: show_glibc_version_current show_glibc_version_$(VER_2.23) show_glibc_version_$(VER_2.27)
 
 $(BASE)/2.23 $(BASE)/2.27:
 	cp 2.23 2.27 -r /tmp
